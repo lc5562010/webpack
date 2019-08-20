@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #### 构建步骤
 1. ###### 项目初始化
    npm init
@@ -9,3 +10,7 @@
 -   npm install --save-dev css-loader
 -   npm install --save-dev webpack-merge
 -   npm install friendly-errors-webpack-plugin --save-dev
+=======
+# webpack
+webpack
+>>>>>>> d12ca98a04d2c15e3af845db36f8dffc289d09dc
