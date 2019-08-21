@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "analyz": "NODE_ENV=production npm_config_report=true npm run build"
   },
   "author": "chong.liu",
   "license": "ISC",
@@ -17,8 +18,10 @@
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
     "webpack": "^4.38.0",
+    "webpack-bundle-analyzer": "^3.4.1",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2",
+    "webpack-jarvis": "^0.3.2",
     "webpack-merge": "^4.2.1"
   }
 }

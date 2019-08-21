@@ -9,5 +9,6 @@
 -   npm install --save-dev mini-css-extract-plugin
 -   npm install --save-dev css-loader
 -   npm install --save-dev webpack-merge
--   npm install friendly-errors-webpack-plugin --save-dev
-
+-   npm install friendly-errors-webpack-plugin --save-dev（友好的错误提示）
+-   npm install --save-dev webpack-jarvis（图形化分析）
+-   npm install --save-dev webpack-bundle-analyzer
